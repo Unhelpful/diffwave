@@ -34,7 +34,7 @@ class AttrDict(dict):
 
 params = AttrDict(
     # Training params
-    batch_size=128,
+    batch_size=512,
     learning_rate=2e-4,
     max_grad_norm=None,
 
@@ -43,7 +43,7 @@ params = AttrDict(
     n_mels=128,
     n_fft=2400,
     hop_samples=240,
-    crop_mel_frames=62,  # Probably an error in paper.
+    crop_mel_frames=128,  # Probably an error in paper.
 
     # Model params
     residual_layers=30,
