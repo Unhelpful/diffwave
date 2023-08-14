@@ -34,7 +34,7 @@ class AttrDict(dict):
 
 params = AttrDict(
     # Training params
-    batch_size=32,
+    batch_size=8,
     learning_rate=2e-4,
     max_grad_norm=None,
 
