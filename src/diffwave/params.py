@@ -41,8 +41,8 @@ params = AttrDict(
     # Data params
     sample_rate=48000,
     n_mels=128,
-    n_fft=2400,
-    hop_samples=256,
+    n_fft=2048,
+    hop_samples=512,
     crop_mel_frames=128,  # Probably an error in paper.
 
     # Model params
